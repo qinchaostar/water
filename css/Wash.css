@@ -1,0 +1,58 @@
+@import "base.css";
+header{
+    height: 0.88rem;
+    width: 100%;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41,167,255,0.13);
+}
+header a{
+    color: #4ebbfe;
+}
+header .iconfont{
+    float: left;
+    width: 0.25rem;
+    height: 0.42rem;
+    margin-left: 0.24rem;
+}
+.Service{
+    /*width: 1.29rem;*/
+    /*height: 1rem;*/
+    display: flex;
+    flex-direction: row;
+    padding: 0.18rem 0;
+    justify-content: space-between;
+    border-bottom: 0.01rem solid #f0f5f7;
+    margin: 0 1.45rem;
+}
+.Service > span{
+    font-size: 0.24rem;
+    position: relative;
+    padding: 0.18rem 0;
+}
+.Service > span:nth-child(1){
+    color: #41b2fc;
+    background: rgba(65,178,255,0.1);
+    padding: 0.08rem 0.2rem;
+    border-radius: 0.22rem;
+    margin-right: 0.3rem;
+}
+.Service > span:nth-child(2){
+    color: #41b2fc;
+    background: rgba(65,178,255,0.1);
+    padding: 0.08rem 0.2rem;
+    border-radius: 0.22rem;
+    margin-right: 0.3rem;
+}
+.Service > span:nth-child(3){
+    color: #41b2fc;
+    background: rgba(65,178,255,0.1);
+    padding: 0.08rem 0.2rem;
+    border-radius: 0.22rem;
+    margin-right: 0.3rem;
+}

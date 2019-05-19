@@ -1,0 +1,158 @@
+@import "base.css";
+@import "base.css";
+header{
+    height: 0.88rem;
+    width: 100%;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41,167,255,0.13);
+}
+header a{
+    color: #4ebbfe;
+}
+header .iconfont{
+    float: left;
+    width: 0.25rem;
+    height: 0.42rem;
+    margin-left: 0.24rem;
+}
+.goods{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 1rem;
+    position: relative;
+}
+.ListItem::before{
+    content: '';
+    width: 0.24rem;
+    height: 0.24rem;
+    background-color: #4ebbfe;
+    float: left;
+    position: absolute;
+    left: 0.25rem;
+    top: 0.77rem;
+    border-radius: 50%;
+}
+.ListItem{
+    height: 1.74rem;
+    /*background: #02fde4;*/
+    margin-bottom: 0.66rem;
+    position: relative;
+}
+.ListItem > a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.ListItem h1{
+    font-size: 0.28rem;
+    color: rgba(0,0,0,0.6);
+    font-weight: normal;
+    margin-top: 0.45rem;
+    margin-left: 0.24rem;
+}
+.ListItem .price{
+    position: absolute;
+    left: 2.74rem;
+    bottom: 0.23rem;
+    font-size: 0.26rem;
+    color: #8e9397;
+    opacity: 0.8;
+}
+.thumb{
+    width: 1.74rem;
+    height: 1.74rem;
+    background: #ffffff;
+    padding: 0.3rem;
+    box-sizing: border-box;
+    box-shadow: 0 0.01rem 0.21rem rgba(223,223,223,0.43);
+    border-radius: 0.1rem;
+    margin-left: 0.78rem;
+}
+.ListItem .total{
+   position: absolute;
+    right: 0.25rem;
+    top: 0.45rem;
+}
+.ListItem .total .jian{
+      width: 0.34rem;
+      height: 0.34rem;
+    background: #e7f6ff;
+    border-radius: 50%;
+}
+.ListItem .total .jia{
+    width: 0.34rem;
+    height: 0.34rem;
+    background: #e7f6ff;
+    border-radius: 50%;
+}
+.footer{
+    /*margin-bottom: 0;*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 7.49rem;
+    height: 1.08rem;
+    /*display: block;*/
+    /*float: left;*/
+}
+.footer .all{
+     font-size: 0.24rem;
+    letter-spacing: 0.13rem;
+    color: #3bacfe;
+    opacity: 0.6;
+    margin-left: 0.38rem;
+    position: relative;
+}
+.footer .all .pri{
+     font-size: 0.36rem;
+    letter-spacing: 0;
+    color: #36a8fe;
+    position: absolute;
+    left:1.5rem;
+    top: -0.4rem;
+}
+.footer span:nth-child(2){
+    font-size: 0.2rem;
+    letter-spacing: 0.01rem;
+    color: #3bacfe;
+    opacity: 0.6;
+    margin-left: 0.4rem;
+}
+
+.footer img{
+    float: right;
+    width: 3.8rem;
+    height: 1rem;
+    margin-top: -0.5rem;
+    margin-right: 0.24rem;
+}
+.election .all{
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #3bacfe;
+    /*margin-bottom: 0.5rem;*/
+    margin-left: 0.35rem;
+}
+.election  .all::before{
+    content: '';
+    width: 0.24rem;
+    height: 0.24rem;
+    background-color: #4ebbfe;
+    float: left;
+    margin-left: 0.25rem;
+    margin-top: 0.16rem;
+    border-radius: 50%;
+}
+/*.election .qx{*/
+/*    width: 0.6rem;*/
+/*    height: 0.6rem;*/
+/*    margin-left:0.1rem ;*/
+/*    margin-bottom: -0.23rem;*/
+/*}*/
